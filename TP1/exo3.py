@@ -1,9 +1,6 @@
-print("Entrez la date")
-jour=int(input())
-print("Entrez l'heure")
-heure=int(input())
-print("Entrez les minute")
-minute=int(input())
+jour=int(input("Entrez la date: "))
+heure=int(input("Entrez l'heure: "))
+minute=int(input("Entrez les minutes: "))
 
 
 time=(jour*24 + heure)*60 + minute
